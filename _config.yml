@@ -1,0 +1,24 @@
+# Site settings
+title: Bioinformatics Blog
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  A blog about science, statistics, computer science, and bioinformatics.
+  It covers practical implementations through big picture ideas about research.
+  Largely this is a sandbox for things related to the cross-disciplinary area
+  of bioinformatics.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  ctokheim
+
+# Build settings
+markdown: kramdown
+
+# set code highlighting
+highlighter: pygments
+
+# jekyll tagging parameters
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+ignored_tags: []  # tags to ignore
